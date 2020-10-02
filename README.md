@@ -1,4 +1,4 @@
-# Hard-Shape-Constraint-for-Kernels
+# Hard-Shape-Constraints-for-Kernels
 The experiments in the NeurIPS 2020 article "Hard Shape-Constrained Kernel Machines", Pierre-Cyril Aubin-Frankowski and Zoltan Szabo, https://arxiv.org/abs/2005.12636 can be reproduced with the Matlab code provided here.
 
 The only dependency is to CVXGEN to compute the solution of the second-order-cone (SOC) constrained optimization problems (i.e. ridge regression and joint quantile regression). Please download the necessary files at http://cvxr.com/cvx/download/ The download will generate a 50Mo file, no other library manipulation should be required. We used Matlab 2018a. We recommend using the Mosek solver if available for an average two-fold speedup with respect to the default CVX solver (SeDuMi or SDPT3).
