@@ -12,6 +12,6 @@ Engel_MonotonousJointQuantReg.m->Fig.4a
 Engel_ConcaveMonotonousJointQuantReg.m->Fig.4b
 ENAC_MonotonousJointQuantReg.m->Fig.5
 
-Each of these files was re-ran before submission and allows to reproduce faithfully the results of the article. However, for the tester' convenience, some datasets were cropped to keep short computation times (less than a minute on a laptop, an indicative value is provided in each .m file). If you wish to do the full experiment, uncomment the code lines as suggested in the respective .m files.
+Each of these files was re-ran before submission and allows to reproduce faithfully the results of the article. However, for the testers' convenience, some datasets were cropped to keep short computation times (less than a minute on a laptop, an indicative value is provided in each .m file). If you wish to do the full experiment, uncomment the code lines as suggested in the respective .m files.
 
 Pierre-Cyril Aubin 02/10/2020
